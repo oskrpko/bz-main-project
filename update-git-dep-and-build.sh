@@ -10,4 +10,4 @@ git commit -m "Changed MYVAR to $MYVAR"
 git push
 popd
 
-bazel build //..
+bazel build //...
