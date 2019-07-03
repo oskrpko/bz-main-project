@@ -9,5 +9,5 @@ git add values.bzl
 git commit -m "Changed MYVAR to $MYVAR"
 git push
 popd
-
+bazel version
 bazel build //...
